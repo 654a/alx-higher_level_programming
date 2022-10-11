@@ -1,9 +1,14 @@
 #!/usr/bin/python3
+# 0-square.py by Ehoneah Obed
+"""Defines a square """
+
+
 class Square:
-    """type class square"""
+    """Represents a square"""
+
     def __init__(self, size):
-        """Init the square class
-        Args:
-        param1: size is the type int attribute to make it private
+        """Initializing this square class
+        Args: size - represnets the size of the square defined
         """
+
         self.__size = size
